@@ -30,6 +30,52 @@ Libraries;
 
 NLTK
 
+------------------------------------------------------------
+
+
+
+Text Mining: Convert to structured data and apply machine learning.
+
+
+NLP: Treat text as sequential data and apply probability theory. Useful in text generation and tagging.
+
+
+
+Text Representation:
+
+Bag of words(tf-id, SVD and word embeddings)
+
+Transition probability matrices 
+Translation, question-answer systems etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

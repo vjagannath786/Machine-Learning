@@ -1,0 +1,36 @@
+
+Basic NLP techniques:
+
+
+Tokenization
+
+
+
+Stemming
+
+
+Lemmtaization
+
+
+POS Tags
+
+
+Named Entry Recognition
+
+
+
+Chunking
+
+
+
+--------------------------------------
+
+Libraries;
+
+
+NLTK
+
+
+
+
+

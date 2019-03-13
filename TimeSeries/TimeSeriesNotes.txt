@@ -1,9 +1,12 @@
-TREND:
+There are three components in Time series;
 
-SEASONALITY:
+TREND
+SEASONALITY
+RANDOMNESS
 
-NOISE IN DATA:
 
+
+-----------------------------------------------
 ACF:
 
 PCF:

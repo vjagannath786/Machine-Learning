@@ -1,0 +1,197 @@
+TREND:
+
+SEASONALITY:
+
+NOISE IN DATA:
+
+ACF:
+
+PCF:
+
+------------------------------------------------------------------------------
+MOVING AVERAGE: Future value depends on average of previous data of n samples.
+
+
+Cons:
+You cannot actually predict a value to near future. After some point only you can predict the value.
+--------------------------------------------------------------------------------
+weighted moving average:
+
+Typically we choose a period of moving average and assign weights to the values so that the error is minimized.
+
+
+Cons:
+
+There will always be lags in the prediction as it cannot predict when there will be peak and when there will be drop in the value.
+
+---------------------------------------------------------------------------------------
+
+EXPONENTIAL SMOOTHING: 
+yt+1 = yt + alpha(yt - yt)
+
+In order to predict future value, take today's value and add/subtract with the error made from the previous prediction.
+
+---------------------------------------------------------------------------------------
+
+DOUBLE EXPONENTIAL SMOOTHING:
+
+
+-----------------------------------------------------------------------------------------------
+TRIPLE EXPONENTIAL SMOOTHING (HOLT WINTERS):
+Think about the weather prediction.
+
+
+This method separates forecast into three: Base level + Trend + Seasonal
+
+
+Forecast separetly for base, trend and seasonal by taking three parameters aplpha, beta and gamma.	
+
+
+But, since there is some information left in the residual we would opt for better methods like ARIMA.
+
+
+
+--------------------------------------------------------------------------------------------------------
+AR(p) : is determined by the PCF
+
+MA(q) : is determined by the ACF.
+
+-----------------------------------------------------
+MODELS: 
+ARIMA
+AutoRegressive Integrated Moving AVERAGE (p,d,q)
+
+P: like PACF (no. of terms needed)  --- do a linear regression and find the largest cofficient above zero that will be the term.
+(How many terms needed)
+
+q: like ACF (corrleation with lags)  --- It is the maximum lag beyond which the ACF is zero. Or, how many error terms needed.
+
+d: order of integration(difference of two values)
+
+
+
+Steps to do:
+do the differentiation to remove the trend
+plot acf and pcf plots to figure out the p and q terms.
+perform the residual analysis
+start forecasting.
+
+
+
+
+
+
+---------------------------------
+SARIMA (p,d,q)(P,D,Q)m
+
+
+P: like PACF (no. of terms needed)  --- do a linear regression and find the largest cofficient above zero that will be the term.
+(How many terms needed)
+
+q: like ACF (corrleation with lags)  --- It is the maximum lag beyond which the ACF is zero. Or, how many error terms needed.
+
+d: order of integration(difference of two values)
+
+m: number of seasonale terms needed.
+
+
+
+
+------------------------------------------------------------
+FACEBOOK PROPHET
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+METRICS: MAE, MEDIAN A E, MPE, MSE,
+
+
+
+
+why can't we apply linear models to time series model. (If there is no trend or seasonality in data then coeficients will behave wierdly).
+
+Most real world data uses multiplicative seasonality.(MAPE is used as metric)
+
+AutoRegressive:
+
+Future value = Function(all the previous values)
+
+
+Time series to be categorized as :
+TREND
+seasonality
+random stationary
+
+
+ACF : Auto correlation
+study of correlation between consecutive values by lag 1.
+
+
+
+PCF: Partial auto correlation
+How many lags are needed.
+Which also stated how much independent/new information is contained in subsequent lags which is not there in already computed value.
+
+How to identify it then: It does a linear regression and coeficient of the last term is the PCF.
+
+
+---------------------------------------------------
+How ACF and PCF will display for Trend, SEASONALITY and Random
+
+Trend:
+ACF:Decreasing graph   PCF: 1 or 2 lags of PACF
+
+
+SEASONALITY:
+
+ACF: Cyclic in ACF			PCF: Few lags of PCAF with some positive and negative.
+
+
+Random:
+A spike may or may not be present.	
+
+
+-----------------------------------------------------
+
+If data is stationary, forecasting is easy!
+-----------------------------------------------
+
+How to remove the TREND, by taking the difference/differentiation in the values.
+
+---------------------------------------------------------------------------
+
+When the data has become stationary, then only these algorithms should be applied.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

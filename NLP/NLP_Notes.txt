@@ -119,9 +119,54 @@ Any matrix can be factorixed into three matracies;
 
 
 Then reconstructed tdf with just important concepts.
+
+Applied from 2000 -2010
 -------------------------------------------------------------------------------
 
 Latent Symantic Indexing/Analysis.
+
+
+
+--------------------------------------------------------------------------------
+From 2010 --- 2015 
+
+Word Embeddings:
+
+Word2Vec ---- ????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

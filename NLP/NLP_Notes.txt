@@ -1,22 +1,35 @@
+Text Mining can be done in three ways
+1) Regex
+2) Bag of words approach
+3) probabilistic approach(NLP). If a word is given what is the probability of words which appear before and after.
+
+
+
+
+
+
 
 Basic NLP techniques:
 
 
-Tokenization
+Tokenization: Removed puntuation.
 
 
 
-Stemming
+Stemming: Treating similar words into one word.
+Like Run, Ran, Running should be treated as one word : Run.
+Libraray:Porter Stemmer.
 
 
-Lemmtaization
+
+Lemmtaization: Grouping words into one category like car and bike into automobile.
+Library; WordNetLemmatizer.
 
 
 POS Tags
 
 
 Named Entry Recognition
-
 
 
 Chunking
@@ -47,6 +60,114 @@ Bag of words(tf-id, SVD and word embeddings)
 
 Transition probability matrices 
 Translation, question-answer systems etc.
+
+
+
+-------------------------------------------------------
+
+Tips: Cos, sin similarity works better.
+
+Steps to do :
+1) Tokenization
+2) Removing stop words.
+3) Then a bag of words corpus forms
+4) stemming and lemmatization
+5) Then a bag of terms is formed.
+6) Since it takes log, it is better to add +1 and then take log.
+6) Apply TF-IDF
+7) Apply SVD.
+
+
+
+
+--------------------------------------------
+TF-IDF:
+Terms that occur in all the documents are not important. This is document frequency. Lower df, better classification.
+Usefulness of the word is inversly proportional to presence in the document.
+
+IDF:
+taking log of inverted df.
+Calculating frequency of the terms across documents.
+
+
+
+TF:
+Number of times a term occured within a document. Take the term which occured for maximum times in a document. Divide every cell with that.
+This varies between 0 and 1.
+
+
+Last thing, multiply TF and IDF.
+
+
+Resultant will be a sparse matrix.
+
+sparseness and short range coverage are the biggest problem.
+
+
+--------------------------------------------------------------
+
+SVD(Singular Value Decomposition):
+
+Matrix decompostion or matrix factorization.
+
+Any matrix can be factorixed into three matracies;
+1) two orthoginal ---- Word Matrix, document matrix
+2) one diagonal --- Concept Matrix.
+
+
+
+
+
+Then reconstructed tdf with just important concepts.
+-------------------------------------------------------------------------------
+
+Latent Symantic Indexing/Analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

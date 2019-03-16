@@ -132,7 +132,21 @@ From 2010 --- 2015
 
 Word Embeddings:
 
-Word2Vec ---- ????
+Word2Vec ----
+
+It is arranging words having similar context near to each other in vector space.
+
+Implementation:
+
+Take one hot encoding of the words in the corpus.
+multiply the one hot vector with hidden layer. 
+Apply softmax to the output layer.
+Backpropogate the error and learn the weights using gradient descent.
+
+Helpful video :
+https://www.youtube.com/watch?v=64qSgA66P-8
+
+
 
 
 

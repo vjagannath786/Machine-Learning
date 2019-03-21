@@ -147,7 +147,7 @@ Helpful video :
 https://www.youtube.com/watch?v=64qSgA66P-8
 
 Working example:
-https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-IMDB.ipynb
+https://github.com/RaRe-Technologies/movie-plots-by-genre/blob/master/ipynb_with_output/Document%20classification%20with%20word%20embeddings%20tutorial%20-%20with%20output.ipynb
 
 
 Doc2Vec:

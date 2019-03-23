@@ -1,0 +1,26 @@
+RNN:
+
+
+
+
+
+
+
+Disadvantages: Vanishing Gradient Descent, Exploding GD
+
+
+
+
+LSTM (Long Short Term Memory):
+
+Forget Gate(Sigmoid) >> Input Gate(Sigmoid, Tanh) >> Output Gate(Tanh, Sigmoid).
+
+
+
+
+
+GRU(Gated recurring Unit):
+
+Here, forget and Input gate are combined. 
+
+Hidden and memory cell are combined.

@@ -80,9 +80,7 @@ perform the residual analysis
 start forecasting.
 
 
-
-
-
+Rules for ARIMA : http://people.duke.edu/~rnau/arimrule.htm
 
 ---------------------------------
 SARIMA (p,d,q)(P,D,Q)m

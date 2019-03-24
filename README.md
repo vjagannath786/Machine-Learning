@@ -26,3 +26,5 @@ https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions
 Basic Kernels for all data science related topics
 https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle/notebook
 
+TextClassification(LSTM):
+https://realpython.com/python-keras-text-classification/

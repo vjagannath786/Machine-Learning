@@ -17,3 +17,12 @@ https://jakevdp.github.io/PythonDataScienceHandbook/05.01-what-is-machine-learni
 
 ML-related-Journeys
 https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8
+
+
+Winning Solutions
+https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions
+
+
+Basic Kernels for all data science related topics
+https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle/notebook
+

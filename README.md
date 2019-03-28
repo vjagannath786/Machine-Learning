@@ -31,4 +31,4 @@ https://realpython.com/python-keras-text-classification/
 
 
 Good Understanding of LSTM:
-https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47 (Add this content in LSTM.docx)
+https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47 

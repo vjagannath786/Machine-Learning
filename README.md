@@ -28,3 +28,7 @@ https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle/notebook
 
 TextClassification(LSTM):
 https://realpython.com/python-keras-text-classification/
+
+
+Good Understanding of LSTM:
+https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47

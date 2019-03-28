@@ -24,3 +24,9 @@ GRU(Gated recurring Unit):
 Here, forget and Input gate are combined. 
 
 Hidden and memory cell are combined.
+
+
+
+Good Explanation of LSTM:
+
+https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47

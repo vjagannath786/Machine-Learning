@@ -32,3 +32,10 @@ https://realpython.com/python-keras-text-classification/
 
 Good Understanding of LSTM:
 https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47 
+
+
+
+Docker:
+https://medium.freecodecamp.org/docker-quick-start-video-tutorials-1dfc575522a0
+
+

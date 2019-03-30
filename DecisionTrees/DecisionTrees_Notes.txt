@@ -1,0 +1,30 @@
+The tree based graphical representation makes it easy to perform tasks like classification and regression.
+
+
+So, how does it decide on decision nodes.
+
+
+
+
+
+GiniUncertanity:
+Maximizing this criterion can be interpreted as the
+ maximization of the number of pairs of objects of the same class that are in the same subtree (not to be confused with the Gini index).
+
+
+
+
+Entropy:
+Its a measure of disorder. Higher entropy, the less order the system is.
+
+
+
+
+Information Gain:
+Higher the gain, higher the result.
+
+
+
+Hyperparameters:
+
+Max_Depth, Max features, Min_leaf.

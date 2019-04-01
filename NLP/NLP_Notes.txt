@@ -154,7 +154,8 @@ Doc2Vec:
 
 ???
 
-
+Text Classification Keras Example:
+https://medium.com/@sabber/classifying-yelp-review-comments-using-lstm-and-word-embeddings-part-1-eb2275e4066b
 
 
 

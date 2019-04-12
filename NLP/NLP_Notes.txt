@@ -162,6 +162,11 @@ Topic Modelling Working Example:
 https://github.com/priya-dwivedi/Deep-Learning/blob/master/topic_modeling/LDA_Newsgroup.ipynb
 
 
+Fake News Detector:
+LDA
+https://www.kaggle.com/ktattan/lda-and-document-similarity
+
+
 
 
 

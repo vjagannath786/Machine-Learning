@@ -1,0 +1,1 @@
+Def: Model to predict or find the relation between dependent and independent variable.

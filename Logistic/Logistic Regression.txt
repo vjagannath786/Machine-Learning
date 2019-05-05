@@ -1,1 +1,1 @@
-Def: Model used to predict if the dependent variable is binary (0, 1)
+Def: Model used to predict if the dependent variable is binary (0, 1). It uses the logit function 1/ 1 + e^-z to predict the variable.

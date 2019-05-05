@@ -168,7 +168,8 @@ https://www.kaggle.com/ktattan/lda-and-document-similarity
 
 
 
-
+NLP Datasets:
+https://github.com/niderhoff/nlp-datasets
 
 
 

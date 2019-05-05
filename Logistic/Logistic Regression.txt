@@ -1,0 +1,1 @@
+Def: Model used to predict if the dependent variable is binary (0, 1)

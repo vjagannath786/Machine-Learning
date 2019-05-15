@@ -39,3 +39,10 @@ Docker:
 https://medium.freecodecamp.org/docker-quick-start-video-tutorials-1dfc575522a0
 
 
+Sample Interview Questions:
+https://www.springboard.com/blog/machine-learning-interview-questions/
+
+
+
+
+

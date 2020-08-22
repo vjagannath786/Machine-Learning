@@ -1,2 +1,7 @@
 Word embeddings is a two layer neural network.
 The idea of the network is to place the different words of having similar context place neealry in the embedding space or vector space.
+
+There are two different algorithms to achieve this;
+
+CBOW (common bag of words) --- Predict the word from the sentence
+skip gram model --- predict similar words to a given word.

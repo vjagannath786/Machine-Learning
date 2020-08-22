@@ -1,0 +1,2 @@
+Word embeddings is a two layer neural network.
+The idea of the network is to place the different words of having similar context place neealry in the embedding space or vector space.

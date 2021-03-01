@@ -1,0 +1,18 @@
+Probability: Chance of finding some value within a boundary.
+
+
+Likelihood: How can you vary boundaries, so that the chances of finding some value increases.
+
+
+
+
+Example:
+
+
+Probability: What is the chance of police to catch drunk and drive cases on a given day.
+
+
+Likelihood: What is the chance of police to catch drunk and drive cases near the pub on a given day.
+
+
+

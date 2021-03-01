@@ -1,9 +1,9 @@
 Ensemble methods are done by two ways:
 
 Bagging : 
-Learn by majority vote.
+Learn by majority voting or averaging.
 Take different models predictor like decision trees and average the prediction.
-It is done in a parallel way.
+It is done in a parallel way/independant.
 
 
 
@@ -16,6 +16,17 @@ Models: Random Forest
 Boosting : 
 Learn by the weak learners in a sequential way.
 
+Models: XGBoost, Ada, LightGBM, Catboost.
 
 
-Models; XGBoost, Ada, LightGBM, Catboost.
+
+
+Basic questions:
+
+
+1) Difference between bagging and boosting.
+
+2) what are pros and cons of each, and when it should be applied.
+
+3) How do they treat missing data.
+

@@ -46,5 +46,6 @@ https://www.springboard.com/blog/machine-learning-interview-questions/
 
 
 
-
+Regression Metrics guide:
+https://www.h2o.ai/blog/regression-metrics-guide/#:~:text=The%20Mean%20Absolute%20Error%20(MAE,of%20all%20these%20absolute%20differences.
 
